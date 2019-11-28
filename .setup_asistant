@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: youbot_description
+    relative_path: robots/youbot.urdf.xacro
+    xacro_args: --inorder
+  SRDF:
+    relative_path: config/youbot.srdf
+  CONFIG:
+    author_name: Sokolov Denis
+    author_email: denis.sokolov48@gmail.com
+    generated_timestamp: 1574949791
